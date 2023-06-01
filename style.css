@@ -27,24 +27,18 @@ body {
     height: 100%;
     background-color: #eee;
     position: absolute;
-    top: -100%;
-    transition: all ease 1s;
+    /* top: -100%; */
+    transition: all ease 1.2s;
     display: flex;
     justify-content: center;
     align-items: center;
-
-}
-
-.nav-img {
-    position: absolute;
-    z-index: 500;
-    left: -100%;
-    height: 100vh;
     background-image: url(https://images.unsplash.com/photo-1436262513933-a0b06755c784?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+
 }
+
 
 .main div {
     display: flex;
@@ -61,7 +55,7 @@ body {
     justify-content: space-around;
     z-index: 10;
     color: white;
-    
+
 }
 
 .main h1 {
@@ -74,4 +68,25 @@ body {
     justify-content: space-around;
     z-index: 10;
     color: white;
+}
+
+@media (max-width:600px) {
+    .logo{
+        font-size: 2.4vmax;
+        margin-left: 2vmax;
+        margin-top: -1vmax;
+
+    }
+    .text{
+        margin-top: -3vmax;
+
+    }
+    .nav {
+       
+        bottom: 20%;
+        background-position:right;
+        background-size: cover;
+    
+    }
+    
 }
