@@ -27,7 +27,7 @@ body {
     height: 100%;
     background-color: #eee;
     position: absolute;
-    /* top: -100%; */
+    top: -100%;
     transition: all ease 1.2s;
     display: flex;
     justify-content: center;
