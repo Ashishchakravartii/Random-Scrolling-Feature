@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: "Gilroy";
+
+}
+
+.main {
+    width: 100vw;
+    height: 100%;
+    background-color: black;
+    background-image: url(https://images.unsplash.com/photo-1543332164-6e82f355badc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.nav {
+    width: 100%;
+    height: 100%;
+    background-color: #eee;
+    position: absolute;
+    top: -100%;
+    transition: all ease 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav-img {
+    position: absolute;
+    z-index: 500;
+    left: -100%;
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1436262513933-a0b06755c784?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main div {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.text {
+    width: 100vw;
+    position: fixed;
+    top: 7%;
+    left: 40%;
+    display: flex;
+    justify-content: space-around;
+    z-index: 10;
+    color: white;
+    
+}
+
+.main h1 {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 5%;
+    left: -40%;
+    display: flex;
+    justify-content: space-around;
+    z-index: 10;
+    color: white;
+}
